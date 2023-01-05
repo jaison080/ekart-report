@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.12.31)  2 JAN 2023 19:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.12.31)  5 JAN 2023 21:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -135,13 +135,18 @@ File: logo.jpg Graphic file (type jpg)
 Package pdftex.def Info: logo.jpg  used on input line 83.
 (pdftex.def)             Requested size: 72.26999pt x 84.05885pt.
  [1]
-[1] [1] (./rep.toc
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 145--155
+
+ []
+
+[1] (./rep.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 5.
+(Font)              <12> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 5.
+(Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 5.
+(Font)              <6> on input line 4.
 )
 \tf@toc=\write3
 \openout3 = `rep.toc'.
@@ -150,41 +155,52 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--172
+
+ []
+
 [1
 
-]
+] [2]
 Chapter 2.
-[2
-
-]
-Chapter 3.
 [3
 
 ]
-Chapter 4.
+Chapter 3.
 [4
 
-] [5
+]
+Chapter 4.
+[5
+
+] [6
 
 ] (./rep.aux) ) 
 Here is how much of TeX's memory you used:
- 1681 strings out of 479983
- 27354 string characters out of 5888069
+ 1684 strings out of 479983
+ 27394 string characters out of 5888069
  323435 words of memory out of 5000000
- 19897 multiletter control sequences out of 15000+600000
- 476039 words of font info for 50 fonts, out of 8000000 for 9000
+ 19899 multiletter control sequences out of 15000+600000
+ 476376 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 40i,6n,55p,277b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ 40i,11n,55p,625b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/user/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/
+tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 bx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on rep.pdf (10 pages, 204165 bytes).
+Output written on rep.pdf (11 pages, 207731 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 77 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
