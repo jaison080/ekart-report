@@ -9,14 +9,17 @@
 %\usepackage{algorithm}
 %\usepackage{algorithmic}
 %\usepackage{algorithmicx}
+\usepackage{geometry}
+%\usepackage{showframe} %This line can be used to clearly show the new margins
 
+\newgeometry{vmargin={25mm} ,hmargin={25mm,25mm}}
 \begin{document}
 \renewcommand\bibname{References}
 \pagestyle{fancy}
 %\fancyheadz{}
 \fancyfoot{}
 \fancyfoot[c]{\thepage}
-\fancyfoot[l]{CSD334-Mini Project 2022}
+\fancyfoot[l]{CSL333  -Database Management System Lab}
 \lhead{abcd}
 \renewcommand{\chaptermark}[1]{
 \markboth{\thechapter.\ #1}{}} 
@@ -29,7 +32,7 @@
 %\lhead{hhhhh}
 %\fancyhead[LO,RE]{\slshape \leftmark}
 %\bibliographystyle{plain}
-\title {E-Kart}
+\title {E-Mart}
 \author {Jaison Dennis}
 %\maketitle
 
@@ -38,12 +41,18 @@
 
 %\topmargin100pt
 \Huge{\textbf{E-MART}}\\
-\large{\textbf{\\CSD334-Mini Project 2022\\}}
+\large{\textbf{\\CSL333  -Database Management System Lab\\}}
 \vspace{1.2in}
-\Large{\textbf{Jaison Dennis}}\\ 
-\Large{\textbf{20CSA34\\
-MDL20CS060\\
-}}	\hspace{.1in}	
+\Large{\textbf{26
+		MDL20CS043
+}}	\hspace{.1in}	\Large{\textbf{CHRISTOPHER ROY}}\\
+\Large{\textbf{33
+		MDL20CS059
+}}	\hspace{.1in}	\Large{\textbf{JAGANNATH E SHAHI}}\\ 
+\Large{\textbf{34
+		MDL20CS060
+}}	\hspace{.1in}	\Large{\textbf{JAISON DENNIS}}\\ 
+	\hspace{.1in}	
 
 \Large{\textbf{
 \\B. Tech. Computer Science \& Engineering
@@ -87,11 +96,17 @@ hodcs@mec.ac.in
 \Large{\textbf{C E R T I F I C A T E}}\\
 \vspace{.1in}
 \end{center}
-This is to certify that, this report titled \textbf{\textit {E-MART}} is a bonafide record of the work done by
-{\textbf{20CSA34
-MDL20CS060
-}{\textbf{Jaison Dennis}}} {{, \textbf{Fifth Semester} B. Tech. Computer Science \& Engineering }}
-student,  for the course work in \textbf{CSD334-Mini Project 2022} which is the Mini Project Work, under our guidance and supervision, in partial 
+This is to certify that, this report titled \textbf{\textit {E-MART}} is a bonafide record of the work done by\\
+\\ \centerline{{\textbf{26
+			MDL20CS043
+	}}	\hspace{.1in}	{\textbf{CHRISTOPHER ROY}}}\\ 
+\centerline{{\textbf{33
+			MDL20CS059
+	}}	\hspace{.1in}	{\textbf{JAGANATH E SHAHI}}}\\ 
+\centerline{{\textbf{34
+			MDL20CS060
+	}}	\hspace{.1in}	{\textbf{JAISON DENNIS}}} \\{{, \textbf{Fifth Semester} B. Tech. Computer Science \& Engineering }}
+student,  for the course work in \textbf{CSL333-Database Management System Lab} which is the Mini Project Work, under our guidance and supervision, in partial 
  fulfillment of the requirements for the award of the degree, B. Tech. Computer 
 Science  and Engineering of \textbf{APJ Abdul Kalam University }.
 \vspace{.1in}
@@ -131,20 +146,20 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxx\= xxxxxxxxxxxxxxxxxx\= \kill
 	invaluable guidance supported us in completing this project.}
 \large{\paragraph{}At last we must express our sincere heartfelt gratitude to all the staff members
 	of Computer Engineering Department who helped me directly or indirectly during this course of work.}
-\begin{flushright}
+\begin{flushleft}
 	{
 		Jaison Dennis\\
-		Jagannath E Shahi\\
-		Christopher Roy
+		Christopher Roy\\
+		Jagannath E Shahi
 	}
-\end{flushright}
+\end{flushleft}
 \newpage
  
 \begin{abstract}
 \pagenumbering{roman}
 This project 'E-Mart' is an e-commerce platform  which sells its goods and services online making it easier for the user to access a wide variety of items from a single platform. E-Mart allows customers to browse and purchase products from a variety of sellers through a web browser. The platform handles all aspects of the transaction, including payment processing, order fulfillment, and order tracking. The platform may also offer features such as personalized recommendations, wish lists, and reviews to help customers find the products they are looking for. Users can also add products to cart and buy them at a later time. Users can search and filter products based on price, brand and offers. Our platform is open for both end users and sellers. The goal of the platform is to create a convenient and easy-to-use shopping experience for customers, while also providing a means for sellers to reach a larger audience and grow their businesses.
 \end{abstract}
-
+\setcounter{tocdepth}{0}
 \tableofcontents
 
 
@@ -156,7 +171,6 @@ This project 'E-Mart' is an e-commerce platform  which sells its goods and servi
 \label{intro}
 An online e-commerce platform is a digital marketplace that enables businesses and individuals to sell products and services to customers over the internet. The platform provides a central location for sellers to list their products, and for customers to browse and make purchases. With the increasing popularity of online shopping, the demand for convenient and reliable e-commerce platforms has grown significantly. Online shopping allows you to shop anytime, anywhere, as long as you have an internet connection. This is especially convenient for people with busy schedules or those who live in rural areas with limited access to physical stores.\\
 \\It also have a much wider selection of products than traditional brick-and-mortar stores. This is because they do not have the same space constraints and can offer a larger inventory. In addition, online retailers often offer products from a variety of brands and manufacturers, giving you more options to choose from. Online retailers often have lower overhead costs, such as rent and utilities, which allows them to offer competitive prices. In addition, it is easy to compare prices from different online retailers to find the best deal. Online e-commerce platforms allow customers to leave reviews of products, which can be helpful in making informed purchasing decisions and provide valuable insights into the quality and functionality of a product, as well as any potential issues. Online retailers often have more lenient return policies, making it easier to return or exchange items that are not satisfactory.  Online e-commerce platforms can use your purchase history and browsing data to make personalized product recommendations, which can save you time and help you discover required products.
-
 
 \section{Proposed Project}
 \subsection{\label{ps}Problem Statement}
@@ -344,7 +358,7 @@ The work schedule was done in an organized manner. The project took a duration o
 
 \bibitem{re1} https://www.builder.ai/
 \bibitem{re2} https://amazon.in/
-\bibitem{re3} 
+\bibitem{re3} https://www.amazon.in/System-Design-Interview-insiders-Second/dp/B08CMF2CQF
 
 \end{thebibliography}
 

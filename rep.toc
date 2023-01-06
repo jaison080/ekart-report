@@ -1,8 +1,8 @@
 \contentsline {paragraph}{}{1}{}%
 \contentsline {paragraph}{}{1}{}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
-\contentsline {section}{\numberline {1.1}Proposed Project}{2}{}%
-\contentsline {subsection}{\numberline {1.1.1}Problem Statement}{2}{}%
+\contentsline {section}{\numberline {1.1}Proposed Project}{1}{}%
+\contentsline {subsection}{\numberline {1.1.1}Problem Statement}{1}{}%
 \contentsline {subsection}{\numberline {1.1.2}Proposed Solution}{2}{}%
 \contentsline {chapter}{\numberline {2}Report of Preparatory Work }{3}{}%
 \contentsline {section}{\numberline {2.1}System Study Report}{3}{}%
