@@ -160,27 +160,90 @@ An online e-commerce platform is a digital marketplace that enables businesses a
 
 \section{Proposed Project}
 \subsection{\label{ps}Problem Statement}
-
+Many consumers still face challenges when using ecommerce platforms, particularly when accessing them through mobile apps. These challenges include a lack of user-friendliness, difficulty in finding products, high shipping costs, lengthy delivery times, and a lack of trust in the security of online payments. In addition, some consumers are hesitant to make purchases through mobile apps due to a lack of personalized recommendations or difficulty in returning or exchanging items.
 \subsection{Proposed Solution}
-This should clearly, without any scope for differing interpretations later, state the methods you are suggesting to achieve the result.
+'E-Mart' aims to address these issues and provide a convenient, reliable, and secure shopping experience for customers. Our platform will feature a user-friendly interface that makes it easy to browse and search for products. We will offer a wide selection of products from various brands and manufacturers, as well as competitive prices. In addition, we will offer fast and reliable shipping options, as well as an easy returns policy. To address concerns about security, we will use industry-standard encryption techniques to protect users' personal and financial information. Finally, we will use personalized recommendations based on users' browsing and purchase history to help them discover new products and make informed purchasing decisions.
 \chapter{\label{work}Report of Preparatory Work }
 %\section{\label{work}Report of Work Done}
-\subsection{System Study Report}
+\section{System Study Report}
 
-%...............................................................................................
+\textbf{FEASIBILITY STUDY}:
+System Analysis and Design Analysis involves the requirement determination and specification.
+First we have to analysis the obtained resources. In the E-Mart software, it includes the
+main module Admin. Feasibility is a test of system and proposed according to workability, impact
+on organization ability to meet user needs, ad effective use of resources. Following are the feasi-
+bility study In this regard, the following feasibility analysis was conducted.\\
+\\\textbf{TECHNICAL FEASIBILITY}:
+This software is designed using Django (for backend) and React Js(for frontend) , this system is tech-nically feasible. Since  proposed system is a web application it can be run on any system of any size and hardware the only requirement being a web browser to access the web app. All existing browsers support the proposed system.\\
+\\\textbf{BEHAVIOURAL FEASIBILITY}:
+Some basic knowledge about the system will be given to the users. Technical knowledge is not
+required, moreover for the users to use the system. This system is easy to use, so it is operationally
+feasible.\\
+\\\textbf{ECONOMICAL FEASIBILITY}:
+Economic analysis is the most frequently used method for evaluating the effectiveness of the system, most commonly known as cost/benefit analysis. Here, as the software is entirely online and free to use. Thus the users won’t be charged for using the system and their only expenditure would be the products they buy from the platform. Hence proposed system is economical.\\
+\\\textbf{PROPOSED SYSTEM}:
+The proposed system is better and more efficient than existing system by keeping in mind all the
+drawbacks of the present system to provide a permanent to them. The primary aim of the new
+system is to provide users a seamless ecommerce experience. This is user friendly. The
+main advantage of the proposed system is the user frindly and beautiful user Interface supported by fast and efficient backend server thus making it user-friendly as possible.\\
+\\\textbf{EXISTING SYSTEM}:
+The effectiveness of the system depends on the way in which different components of the platform is organized and presented.In the existing system, the user-experience can be quite tiresome as the user flow for purchasing products is quite difficult. It is also difficult for the retailers to manage their products and services as the interface of the platform can be quite complex or even intimidating for some.
 
 
 \chapter{Project Design}
  \label{xx}
+\section{System Design}
 
-\section{High Level Design}
-\section{Block Diagrams}
-
-
-\section{Algorithms}
+\begin{figure}[H]
+	\fbox{\includegraphics[width=\linewidth]{er.jpg}}
+	\caption{ER Diagram.}
+\end{figure} 
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{dfdl0.jpeg}
+	\caption{Data Flow Diagram Level 0.}
+\end{figure}
+\begin{figure}[H]
+	\fbox{\includegraphics[width=\linewidth]{dfdl1.jpeg}}
+	\caption{Data Flow Diagram Level 1.}
+\end{figure}
+\begin{figure}[H]
+	\fbox{\includegraphics[width=\linewidth]{dfdl2.jpeg}}
+	\caption{Data Flow Diagram Level 2 (Administrator).}
+\end{figure}
+\begin{figure}[H]
+	\fbox{\includegraphics[width=\linewidth]{dfdl2-1.jpeg}}
+	\caption{Data Flow Diagram Level 2 (Login).}
+\end{figure}
+\begin{figure}[H]
+	\fbox{\includegraphics[width=\linewidth]{dfdl2-2.jpeg}}
+	\caption{Data Flow Diagram Level 2 (User).}
+\end{figure}
+\section{Module Description}
+The admin module deals with the login credentials of the administrator. The administrator has the power to and is the sole user that has the permissions to add  and manage exchanges and users. The admin module includes authorization with a username and password.
+The add/edit exchange component through the admin module deals with the adding/editing of the exchange. In this component, the adding/editing of a particular exchange along with its requisite information can be done.
+The add user component lets the administrator add each user with their passkey. \\
+The user module deals with various components that a user can perform without login or authorization.
+The add/edit holding component provides the user the power to add/edit a particular holding of a choice that can be both bitcoin and alt coin.
+The view status component helps the user to view the status of the holdings along with the particular exchange that the holding was bought from.
+The edit holding component can allow the user to edit the details of the exchange that was previously added by the user.\\
+P2P Module deals with the lending component.
+The lending component allows a user to borrow from another user various USD amounts that a particular user has for lending purposes.
 
 \section{Hardware \& Software Requirements}
+\textbf{HARDWARE REQUIREMENTS} \\
+The hardware required for the development of this project is:\\
+- RAM: 2GB \\
+- Dual Core Processor \\
+- Display \\
+\\\textbf{SOFTWARE REQUIREMENTS}\\
+- Python (Django) \\
+- Javascript (React)\\
+- MySQL and related services \\
+- VS Code IDE \\
+- Web Browser such as Chromium.\\
+
 \section{Work Schedule}
+The work schedule was done in an organized manner. The project took a duration of 10 days. Initial days comprised of designing and visualizing the project concept. The tables and their descriptions were also produced. Later days comprised of developing the project. Further days consisted of testing the project. Fine tuning the project along with design modifications were done on the final days of the project.
 
 \chapter{Screenshots}
 \begin{figure}[H]
@@ -249,6 +312,14 @@ This should clearly, without any scope for differing interpretations later, stat
 	\caption{View Orders}
 \end{figure}
  \chapter{Conclusion}
+ E-Mart ecommerce software with the functional modules was successfully developed and a secured
+ digitalized and user-friendly system for the easy add, delete and editing of ecommerce products also featuring provisons to order and purchase products by uesrs.
+ Manually maintained operations where computerized so that the user can rely on their memory
+ less. Thus the system created to overcome the problems effectively without any corrupted data or
+ information.It is found to be bug-free as per the testing standards that are implemented. And by
+ specification, untraced errors will be concentrated in the coming versions, which is planned to be
+ developed in the near future.The user finally has all that they need to have an
+ purchase, add, track order and delete ecommerce products thus providing users a pleasant and seamless experience.
  \label {con}
 
 
@@ -271,9 +342,9 @@ This should clearly, without any scope for differing interpretations later, stat
 \begin{thebibliography}{999}
 \addcontentsline{toc}{chapter}{References}
 
-\bibitem{re1} Shih-Chia Huang, Fan-Chieh Cheng, and Yi-Sheng Chiu, "\textit{Efficient Contrast Enhancement Using Adaptive Gamma Correction With Weighting Distribution}", IEEE TRANSACTIONS ON IMAGE PROCESSING, VOL. 22, NO. 3,pp.1032-1041, MARCH 2013
-\bibitem{re2} Rafael C. Gonzalez and Richard E. Woods. \textit{Digital Image Processing}. Pearson Education, Third edition, 2009
-\bibitem{re3} William K. Pratt, \textit{Digital Image Processing: PIKS Inside},  Wiley-Interscience Publication, Third Edition.  2001 
+\bibitem{re1} https://www.builder.ai/
+\bibitem{re2} https://amazon.in/
+\bibitem{re3} 
 
 \end{thebibliography}
 

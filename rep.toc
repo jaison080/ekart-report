@@ -5,13 +5,12 @@
 \contentsline {subsection}{\numberline {1.1.1}Problem Statement}{2}{}%
 \contentsline {subsection}{\numberline {1.1.2}Proposed Solution}{2}{}%
 \contentsline {chapter}{\numberline {2}Report of Preparatory Work }{3}{}%
-\contentsline {subsection}{\numberline {2.0.1}System Study Report}{3}{}%
-\contentsline {chapter}{\numberline {3}Project Design}{4}{}%
-\contentsline {section}{\numberline {3.1}High Level Design}{4}{}%
-\contentsline {section}{\numberline {3.2}Block Diagrams}{4}{}%
-\contentsline {section}{\numberline {3.3}Algorithms}{4}{}%
-\contentsline {section}{\numberline {3.4}Hardware \& Software Requirements}{4}{}%
-\contentsline {section}{\numberline {3.5}Work Schedule}{4}{}%
-\contentsline {chapter}{\numberline {4}Screenshots}{5}{}%
-\contentsline {chapter}{\numberline {5}Conclusion}{13}{}%
-\contentsline {chapter}{References}{14}{}%
+\contentsline {section}{\numberline {2.1}System Study Report}{3}{}%
+\contentsline {chapter}{\numberline {3}Project Design}{5}{}%
+\contentsline {section}{\numberline {3.1}System Design}{5}{}%
+\contentsline {section}{\numberline {3.2}Module Description}{10}{}%
+\contentsline {section}{\numberline {3.3}Hardware \& Software Requirements}{11}{}%
+\contentsline {section}{\numberline {3.4}Work Schedule}{11}{}%
+\contentsline {chapter}{\numberline {4}Screenshots}{12}{}%
+\contentsline {chapter}{\numberline {5}Conclusion}{20}{}%
+\contentsline {chapter}{References}{21}{}%
